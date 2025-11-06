@@ -14,10 +14,10 @@ A C++ Sudoku solver with OCR capabilities that reads puzzles from images, displa
 **Implemented:**
 - Terminal rendering with in-place grid updates
 - Basic grid data structure
-- Animation demonstration
+- Sudoku solving algorithm
+- Animation of solving process
 
 **Roadmap:**
-- Sudoku solving algorithm
 - Image processing and OCR integration
 - Screenshot capture support
 
