@@ -8,10 +8,11 @@ all: build
 	./$(BIN_DIR)/solver
 
 build: 
+	mkdir -p $(BIN_DIR)
 	g++ -o $(BIN_DIR)/solver $(SRC_DIR)/sudokuSolver.cpp
 
 clean:
-	rm $(BIN_DIR)/*
-	rm -rf $(OBJ_DIR)/*
+	rm -rf $(BIN_DIR)
+	rm -rf $(OBJ_DIR)
 
-.PHONY: build clean
+.PHONY: all build clean
