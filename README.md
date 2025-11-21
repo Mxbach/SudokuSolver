@@ -6,7 +6,7 @@ A C++ Sudoku solver with OCR capabilities that reads puzzles from images, displa
 
 - 🎯 Real-time terminal display with in-place updates
 - 🔢 9x9 grid representation and rendering
-- 🎬 Animated solving visualization (coming soon)
+- 🎬 Animated solving visualization
 - 📷 Image-based puzzle input via OCR (planned)
 
 ## Current Status
